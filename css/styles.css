@@ -1,0 +1,84 @@
+*{
+  font-family: "Goorm Sans", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.sub-title{
+  font-weight: bold;
+  color: #9d8189;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff4f1;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  background-color: #f4acb7;
+}
+
+.img-container{
+  max-width: 20%;
+  height: auto;
+
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.profile-img{
+  max-width:90%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.detail-box {
+  padding: 10px;
+}
+
+main{
+  padding: 2%;
+}
+
+.edu-ex-box{
+  display: flex;
+  align-items: center;
+}
+
+.edu-box,.exp-box{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.img{
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  padding: 20px;
+}
+
+li{
+  padding: 3px;
+}
+
+@media (max-width: 768px) {
+  .edu-ex-box {
+    flex-direction: column;
+  }
+}
