@@ -22,4 +22,21 @@ HTML로 구현한 Ellie.park의 간단한 이력서 웹 페이지입니다.
 <img src="img/resume_screenshot_mobile.gif" width="300" height=auto/> 
 
 ### 기능 시연
-<img src="img/resume_screenshot.git" width="720" height=auto/>
+<img src="img/resume_screenshot.gif" width="720" height=auto/>
+
+## 기능 (Feature)
+
+
+
+## 설치 (Installation)
+
+```bash
+git clone https://github.com/PARK-SSOYEON/resume.git
+cd resume
+```
+
+## 실행 (Usage)
+```bash
+python3 -m http.server
+http://localhost:8000/ //해당 링크 접속
+```
