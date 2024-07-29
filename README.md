@@ -12,8 +12,13 @@ HTML로 구현한 Ellie.park의 간단한 이력서 웹 페이지입니다.
 ## 예시 (Screenshot)
 
 ### 디바이스 별 레이아웃
+#### PC
 <img src="img/resume_screenshot_PC.gif" width="720" height=auto/>
+
+#### 태블릿
 <img src="img/resume_screenshot_Tablet.gif" width="420" height=auto/>
+
+#### 모바일
 <img src="img/resume_screenshot_mobile.gif" width="300" height=auto/> 
 
 ### 기능 시연
